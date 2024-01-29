@@ -116,6 +116,29 @@ BELOW 1001px (landscape tablets) ***********/
     }
 
     .section-testimonial {
-        
+        grid-template-columns: 1fr;
     }
+
+    .gallery {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .cta {
+        grid-template-columns: 3fr 2fr;
+    }
+
+    .cta-form {
+        grid-template-columns: 1fr;
+    }
+
+    .btn--form {
+        margin-top: 1.6rem;
+    }
+
+/* MOBILE NAVIGATION */
+    .btn-mobile-nav {
+        display: block;
+    }
+
+
 }
